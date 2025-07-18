@@ -1,6 +1,6 @@
 package com.hotelmanagement.security;
 
-import com.hotelmanagement.CustomUserDetailsService;
+import com.hotelmanagement.service.CustomUserDetailsService;
 import com.hotelmanagement.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

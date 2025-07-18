@@ -1,4 +1,4 @@
-package com.hotelmanagement;
+package com.hotelmanagement.service;
 
 import com.hotelmanagement.dao.UserRepo;
 import com.hotelmanagement.model.User;
@@ -8,8 +8,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import com.hotelmanagement.model.UserPrincipal;
-
-import java.util.Optional;
 
 @Service
 public class CustomUserDetailsService implements UserDetailsService {
